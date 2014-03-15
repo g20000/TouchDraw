@@ -16,6 +16,8 @@
 		CE00F234185C7A6400184D20 /* image-add-new-image.png in Resources */ = {isa = PBXBuildFile; fileRef = CE00F22C185C7A6400184D20 /* image-add-new-image.png */; };
 		CE00F235185C7A6400184D20 /* image-add-new-image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE00F22D185C7A6400184D20 /* image-add-new-image@2x.png */; };
 		CE00F23D185C7BF400184D20 /* GalleryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE00F23C185C7BF400184D20 /* GalleryCell.m */; };
+		CE0AA82518D465C600248E7A /* Canvas.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0AA82418D465C600248E7A /* Canvas.m */; };
+		CE0AA82818D46AE700248E7A /* BaseCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0AA82718D46AE700248E7A /* BaseCommand.m */; };
 		CE6EBF26185C65DD00AAB09B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6EBF25185C65DD00AAB09B /* UIKit.framework */; };
 		CE6EBF28185C65DD00AAB09B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6EBF27185C65DD00AAB09B /* Foundation.framework */; };
 		CE6EBF2A185C65DD00AAB09B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6EBF29185C65DD00AAB09B /* CoreGraphics.framework */; };
@@ -55,6 +57,10 @@
 		CE00F22D185C7A6400184D20 /* image-add-new-image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-add-new-image@2x.png"; sourceTree = "<group>"; };
 		CE00F23B185C7BF400184D20 /* GalleryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryCell.h; sourceTree = "<group>"; };
 		CE00F23C185C7BF400184D20 /* GalleryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryCell.m; sourceTree = "<group>"; };
+		CE0AA82318D465C600248E7A /* Canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Canvas.h; sourceTree = "<group>"; };
+		CE0AA82418D465C600248E7A /* Canvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Canvas.m; sourceTree = "<group>"; };
+		CE0AA82618D46AE700248E7A /* BaseCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCommand.h; sourceTree = "<group>"; };
+		CE0AA82718D46AE700248E7A /* BaseCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCommand.m; sourceTree = "<group>"; };
 		CE6EBF22185C65DD00AAB09B /* TouchDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6EBF25185C65DD00AAB09B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CE6EBF27185C65DD00AAB09B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -123,6 +129,10 @@
 			children = (
 				CE00F23B185C7BF400184D20 /* GalleryCell.h */,
 				CE00F23C185C7BF400184D20 /* GalleryCell.m */,
+				CE0AA82318D465C600248E7A /* Canvas.h */,
+				CE0AA82418D465C600248E7A /* Canvas.m */,
+				CE0AA82618D46AE700248E7A /* BaseCommand.h */,
+				CE0AA82718D46AE700248E7A /* BaseCommand.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -339,9 +349,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0AA82818D46AE700248E7A /* BaseCommand.m in Sources */,
 				CE00F23D185C7BF400184D20 /* GalleryCell.m in Sources */,
 				CE6EBF32185C65DD00AAB09B /* main.m in Sources */,
 				CE6EBF36185C65DD00AAB09B /* AppDelegate.m in Sources */,
+				CE0AA82518D465C600248E7A /* Canvas.m in Sources */,
 				CE6EBF42185C65DD00AAB09B /* GalleryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

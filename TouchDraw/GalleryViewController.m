@@ -5,6 +5,7 @@
 //  Created by User on 14.12.13.
 //  Copyright (c) 2013 User. All rights reserved.
 //
+
 #import "GalleryCell.h"
 #import "GalleryViewController.h"
 
@@ -19,18 +20,9 @@ static NSString * const KSequeWorkspace = @"goToWorkspace";
 
 #pragma mark - view live cycle
 
-
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 #pragma mark - UICollectionViewDataSource
